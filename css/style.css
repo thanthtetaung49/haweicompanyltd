@@ -1,0 +1,408 @@
+:root {
+    --bgcolor : #f4f4f4;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+/* Start Header Section  */
+
+/* Stat nav bar  */
+
+.navbar {
+    background-color: var(--bgcolor);
+}
+
+.navbar-brand span {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.line_ones,.line_twos {
+    width: 20px;
+    height: 2px;
+
+    margin: 5px;
+
+    color: silver;
+
+    transition: all 0.5s;
+}
+
+.crossxs .line_ones {
+    transform: rotate(45deg) translate(2px, 2px);
+}
+
+.crossxs .line_twos {
+    transform: rotate(-45deg) translate(2px, -2px);
+}
+
+.item-links a:hover {
+    border-bottom: 1px solid #000;
+}
+/* End nav bar  */
+
+/* End Header Section  */
+
+/* Start Corusel Section  */
+
+.carousel {
+    background-color: #f4f4f4;
+
+    border-radius: 30px;
+
+    box-shadow: 3px 3px 10px rgba(0,0,0, 0.3);
+}
+
+.carousel ul li {
+    list-style: none;
+
+    color: #000;
+}
+
+.buybtns {
+    border: 1px solid silver;
+
+    transition: border-color 0.3s;
+}
+
+.buybtns:hover {
+    border-color: #000;
+}
+
+/* End Corusel Section  */
+
+/* Start P-50 Section  */
+
+.p50-sections {
+    background-color: #f4f4f4;
+
+    border-radius: 30px;
+}
+
+.p50-infos {
+    width: 400px;
+    height: auto;
+
+    margin: auto;
+}
+
+.p50-infos small{
+    display: block;
+}
+
+.elephants {
+    position: relative;
+}
+
+.elephants img {
+    margin: 0px 30px;
+
+    border-radius: 0px 30px 30px 0px;
+}
+
+.p50-imgs {
+    width: 300px;
+    height: auto;
+
+    position: absolute;
+    left: 0;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+@media (max-width: 768px) {
+
+    .elephants .elephant-ones {
+        display: none;
+    }
+
+    .p50-sections {
+        background-color: #f4f4f4;
+    
+        border-radius: 30px;
+    }
+    
+    .p50-infos {
+        width: 300px;
+        height: auto;
+    }
+
+    .elephants {
+        position: relative;
+    }
+    
+    .p50-imgs {
+        width: 200px;
+        height: auto;
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+    
+}
+/* End P-50 Section  */
+
+/* Start P-50 Pocket Section  */
+
+.pocket-sections {
+    background-color: #f4f4f4;
+
+    border-radius: 30px;
+}
+
+.snowhomes {
+    position: relative;
+}
+
+.snowhomes img {
+    border-radius: 30px 0px 0px 30px;
+}
+
+img.p50pocket-imgs {
+    width: 300px;
+    height: auto;
+
+    position: absolute;
+    left: 100%;
+    top: 50%;
+
+    transform: translate(-70%, -50%);
+}
+
+.pocket-infos {
+    width: 400px;
+    height: auto;
+
+    margin: 0px 30px;
+}
+
+.pocket-infos small {
+    display: block;
+}
+
+@media (max-width:768px) {
+
+    .snowhomes .snowhome-ones{
+        display: none;
+    }
+
+    .snowhomes{
+        position: relative;
+    }
+
+    .pocket-sections {
+        background-color: #f4f4f4;
+    
+        border-radius: 30px 0px 0px 30px;
+    }
+    
+    img.p50pocket-imgs {
+        width: 200px;
+        height: auto;
+
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+    
+    .pocket-infos {
+        width: 300px;
+        height: auto;
+    }
+
+}
+
+
+/* End P-50 Pocket Section  */
+
+/* Start HAWEI Watch Fit 2 Section  */
+
+.watchfit-sections {
+    background-color: #f4f4f4;
+
+    border-radius: 30px;
+}
+
+.watchfit-infos{
+    width: 400px;
+    height: auto;
+
+    margin: auto;
+}
+
+.watchfit-infos small {
+    display: block;
+}
+
+.watchfit-imgs {
+    position: relative;
+}
+
+.watchfit-imgs img {
+    border-radius: 0px 30px 30px 0px;
+}
+
+.watchfit-imgs .watchfit-twos{
+    width: 300px;
+    height: auto;
+
+    position: absolute;
+    left: -20%;
+    top: 10%;
+}
+
+@media (max-width:768px) {
+
+    .watchfit-imgs .watchfit-ones{
+        display: none;
+    }
+
+    .watchfit-sections {
+        background-color: #f4f4f4;
+    
+        border-radius: 30px 0px 0px 30px;
+    }
+    
+    .watchfit-infos{
+        width: 300px;
+        height: auto;
+    }
+    
+    .watchfit-imgs {
+        position: relative;
+    }
+    
+    .watchfit-imgs .watchfit-twos{
+        width: 300px;
+        height: auto;
+    
+        position: absolute;
+        left: 0%;
+        top: 10%;
+    }
+
+}
+
+/* End HAWEI Watch Fit 2 Section  */
+
+/* Start Smart Phone Section  */
+
+.smartphones {
+    background-color: #f4f4f4;
+
+    border-radius: 30px;
+}
+
+.smartphone-imgs img {
+    border-radius: 30px 0px 0px 30px;
+}
+
+.smartphone-txts {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.smartphone-txts div p {
+    font-size: 30px;
+}
+
+.smartphone-txts div button {
+    padding: 10px 20px;
+
+    transition: background-color 0.3s;
+}
+
+.smartphone-txts div button:hover{
+    background-color: rgba(0,0,0, 0.7);
+}
+
+/* End Smart Phone Section  */
+
+/* Start Smart Phone Product Section  */
+
+
+.smartphone-products{
+    background-color: #f4f4f4;
+
+    border-radius: 30px;
+}
+
+.card {
+    border-radius: 30px;
+}
+
+.card-p50s{
+    margin: 55px 0;
+}
+
+.card-body .card-p50pros{
+    width: 50%;
+
+    margin: auto;
+}
+
+.card-imgs {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.card-buttons button:hover{
+    background-color: rgba(0,0,0, 0.7);
+}
+
+.card-p50pockets{
+    margin-top: -40px;
+}
+
+#cardones a {
+    margin-bottom: 70px;
+}
+
+#cardtwos a {
+    margin-bottom: 70px;
+}
+
+#cardthrees a {
+    margin-bottom: 70px;
+}
+
+#cardfours a {
+    margin-bottom: 30px;
+}
+
+.card-margins {
+    margin-top: 50px;
+}
+
+.card-matepros {
+    margin-top: 120px;
+}
+
+.anchorlinks small{
+
+    width: 100%;
+
+    display: block;
+}
+
+.anchorlinks a {
+    text-decoration: none;
+
+    margin-top: 20px;
+
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* End Smart Phone Product Section  */
