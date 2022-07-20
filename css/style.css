@@ -7,10 +7,49 @@ body {
 
 /* Start Header Section  */
 
+/* Start Darkmod Button  */
+
+.darkModBtns {
+
+    transform: translate(-100%, -50%);
+
+    position: absolute;
+
+    left: 95%;
+    /* bottom: 0%; */
+
+    z-index: 100;
+}
+
+.modTypes {
+    display: inline-block;
+}
+
+#darkbtns {
+
+    padding: 10px 15px;
+
+}
+@media (max-width:576px) {
+    
+    .darkModBtns {  
+        position: absolute;
+    
+        left: 98%;
+        top: 95%;
+    
+        z-index: 100;
+    }
+
+}
+
+/* End Darkmod Button  */
+
 /* Stat nav bar  */
 
 .navbar {
-    background-color: #f4f4f4;
+    /* border-bottom: 1px solid grey; */
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.8);
 }
 
 .navbar-brand span {
@@ -23,8 +62,6 @@ body {
     height: 2px;
 
     margin: 5px;
-
-    color: silver;
 
     transition: all 0.5s;
 }
@@ -40,6 +77,13 @@ body {
 .item-links a:hover {
     border-bottom: 1px solid #000;
 }
+
+@media (max-width: 576px) {
+    
+    .item-links a:hover {
+        border-bottom: none;
+    }
+}
 /* End nav bar  */
 
 /* End Header Section  */
@@ -47,8 +91,6 @@ body {
 /* Start Corusel Section  */
 
 .carousel {
-    background-color: #f4f4f4;
-
     border-radius: 30px;
 
     box-shadow: 3px 3px 10px rgba(0,0,0, 0.3);
@@ -59,24 +101,30 @@ body {
 
     color: #000;
 }
+
+@media (max-width:576px) {
+
+    .carousel img {
+        width: 300px;
+    }
+    
+}
 /* End Corusel Section  */
 
 /* Start P-50 Section  */
 
-.p50-sections {
-    background-color: #f4f4f4;
-
+.p50Sections {
     border-radius: 30px;
 }
 
-.p50-infos {
+.p50Infos {
     width: 400px;
     height: auto;
 
     margin: auto;
 }
 
-.p50-infos small{
+.p50Infos small{
     display: block;
 }
 
@@ -90,7 +138,7 @@ body {
     border-radius: 0px 30px 30px 0px;
 }
 
-.p50-imgs {
+.p50Images {
     width: 300px;
     height: auto;
 
@@ -101,44 +149,37 @@ body {
     transform: translate(-50%,-50%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
 
-    .elephants .elephant-ones {
+    .elephant-ones {
         display: none;
     }
-
-    .p50-sections {
-        background-color: #f4f4f4;
     
-        border-radius: 30px;
-    }
-    
-    .p50-infos {
-        width: 300px;
+    .p50Infos {
+        width: 245px;
         height: auto;
+
+        margin-left: 30px;
     }
 
     .elephants {
         position: relative;
     }
     
-    .p50-imgs {
+    .p50Images {
         width: 200px;
         height: auto;
-
         position: absolute;
         left: 50%;
         top: 50%;
+        transform: translate(-50%, -50%);
     }
-    
 }
 /* End P-50 Section  */
 
 /* Start P-50 Pocket Section  */
 
-.pocket-sections {
-    background-color: #f4f4f4;
-
+.pocketSections {
     border-radius: 30px;
 }
 
@@ -150,7 +191,7 @@ body {
     border-radius: 30px 0px 0px 30px;
 }
 
-img.p50pocket-imgs {
+img.p50PocketImages {
     width: 300px;
     height: auto;
 
@@ -161,78 +202,71 @@ img.p50pocket-imgs {
     transform: translate(-70%, -50%);
 }
 
-.pocket-infos {
+.pocketInfos {
     width: 400px;
     height: auto;
 
     margin: 0px 30px;
 }
 
-.pocket-infos small {
+.pocketInfos small {
     display: block;
 }
 
-@media (max-width:768px) {
+@media (max-width: 576px) {
 
-    .snowhomes .snowhome-ones{
+    .snowhomesOnes {
         display: none;
     }
 
-    .snowhomes{
+    .pocketInfos {
+        width: 245px;
+        height: auto;
+
+        margin-left: 30px;
+    }
+
+    .snowhomes {
         position: relative;
     }
 
-    .pocket-sections {
-        background-color: #f4f4f4;
-    
-        border-radius: 30px 0px 0px 30px;
-    }
-    
-    img.p50pocket-imgs {
+    .snowhomes img.p50PocketImages {
         width: 200px;
         height: auto;
-
         position: absolute;
         left: 50%;
         top: 50%;
+        transform: translate(100%, 0px)
     }
-    
-    .pocket-infos {
-        width: 300px;
-        height: auto;
-    }
-
 }
-
 
 /* End P-50 Pocket Section  */
 
 /* Start HUAWEI Watch Fit 2 Section  */
 
-.watchfit-sections {
-    background-color: #f4f4f4;
-
+.watchfitSections {
     border-radius: 30px;
 }
 
-.watchfit-infos{
-    width: 400px;
+.watchfitInfos{
+    width: 300px;
     height: auto;
 }
 
-.watchfit-infos small {
+.watchfitInfos small {
     display: block;
 }
 
-.watchfit-imgs {
+.watchfitImages {
     position: relative;
 }
 
-.watchfit-imgs img {
+.watchfitImages img {
+    height: 100%;
     border-radius: 0px 30px 30px 0px;
 }
 
-.watchfit-imgs .watchfit-twos{
+.watchfitTwos{
     width: 300px;
     height: auto;
 
@@ -241,34 +275,32 @@ img.p50pocket-imgs {
     top: 10%;
 }
 
-@media (max-width:768px) {
+@media (max-width: 576px) {
 
-    .watchfit-imgs .watchfit-ones{
+    .watchfitOnes {
         display: none;
     }
 
-    .watchfit-sections {
-        background-color: #f4f4f4;
-    
-        border-radius: 30px 0px 0px 30px;
-    }
-    
-    .watchfit-infos{
-        width: 300px;
-        height: auto;
-    }
-    
-    .watchfit-imgs {
+    .watchfitImages {
         position: relative;
     }
-    
-    .watchfit-imgs .watchfit-twos{
-        width: 300px;
+
+    .watchfitTwos {
+        width: 200px;
         height: auto;
-    
+
         position: absolute;
-        left: 0%;
-        top: 10%;
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%)
+    }
+
+    .watchfitInfos {
+        width: 245px;
+        height: auto;
+
+        margin-left: 30px;
     }
 
 }
@@ -277,17 +309,17 @@ img.p50pocket-imgs {
 
 /* Start Smart Phone Section  */
 
-.smartphones {
-    background-color: #f4f4f4;
+.advProducts {
+    /* background-color: #f4f4f4; */
 
     border-radius: 30px;
 }
 
-.smartphone-imgs img {
+.advProductImages img {
     border-radius: 30px 0px 0px 30px;
 }
 
-.smartphone-txts {
+.advProductTexts {
     display: flex;
 
     justify-content: center;
@@ -295,18 +327,37 @@ img.p50pocket-imgs {
     flex-direction: column;
 }
 
-.smartphone-txts div p {
+.advProductTexts div p {
     font-size: 30px;
 }
 
-.smartphone-txts div button {
+.advProductTexts div button {
+    font-size: 13px;
+
     padding: 10px 20px;
 
     transition: background-color 0.3s;
 }
 
-.smartphone-txts div button:hover{
+.advProductTexts div button:hover{
     background-color: rgba(0,0,0, 0.7);
+}
+
+@media (max-width: 576px) {
+    .advProductImages img {
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .advProductTexts {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .advProductTexts div button{
+        margin-bottom: 30px;
+    }
+
 }
 
 /* End Smart Phone Section  */
@@ -314,7 +365,7 @@ img.p50pocket-imgs {
 /* Start Smart Phone Product Section  */
 .card {
     /*height: 900px;*/
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
 
     border-radius: 30px;
     border: none;
@@ -324,35 +375,149 @@ img.p50pocket-imgs {
     width: 40%;
 }
 
-.bigCardImages {
-    margin: 10px 0;
+/* Start Card Images  */
+
+.CardImages {
+    margin: 65px 0px;
 }
 
-.smallCards {
-    height: 400px;
-}
+/* End Card Images  */
 
-.phoneSpecifications {
+.itemSpecifications {
     font-size: 13px;
 }
 
-.phoneSectionLinks a {
+.itemSectionLinks a {
     text-decoration: none;
+
+    margin-bottom: 50px;
+
+    display: inline-block;
 }
 
-.phoneSectionLinks a:hover {
+.itemSectionLinks a:hover {
     opacity: 0.8;
 }
 
-.phoneSectionLinks a i {
+.itemSectionLinks a i {
     transition: all 0.5s;
 }
 
-.phoneSectionLinks a:hover i{
+.itemSectionLinks a:hover i{
     transform: translateX(5px);
 }
 
 /* End Smart Phone Product Section  */
+
+/*Start PC Section */
+
+.sectionTops {
+    margin-top: 150px;
+}
+
+/*End PC Section */
+
+/* Start Huawei Start Office And Emui 10.1  */
+
+.officeEmuiSections {
+    border-radius: 30px;
+}
+
+.smartOffices img {
+
+    border-radius: 30px 30px 0px 0px;
+
+}
+
+.emuis img {
+
+    border-radius: 30px 30px 0px 0px;
+
+}
+
+.aboutOfficeEmuis button {
+    padding: 10px 15px;
+
+    border: none;
+
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+
+    background-color: #000;
+
+    border-radius: 30px;
+
+    transition: background-color 0.8s;
+}
+
+.aboutOfficeEmuis button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 576px) {
+
+    .smartOffices img {
+        border-radius: 30px;
+    }
+
+    .emuis img {
+        border-radius: 30px;
+    }
+}
+
+/* End Huawei Start Office And Emui 10.1  */
+
+/* Start Our Services Section  */
+
+.serviceSections {
+    /* background-color: #f4f4f4; */
+
+    border-radius: 30px;
+}
+
+.serviceTexts a {
+    text-decoration: none;
+}
+
+/* End Our Services Section  */
+
+/* Start Footer  */
+
+.footerLinks li a {
+    line-height: 2;
+    font-size: 14px;
+}
+
+.footerLinks li a:hover {
+    color: #000000;
+}
+
+.fa-facebook,.fa-youtube {
+    color: grey;
+}
+
+.fbLinks i:hover {
+    color: #000;
+}
+
+.ytLinks i:hover {
+    color: #000;
+}
+
+.copyRights {
+    width: 300px;
+}
+
+.copyRightLinks a:hover {
+    color: #000;
+}
+
+.globalLinks a:hover {
+    color: black;
+}
+
+/* End Footer  */
 
 /*Start Learn More and Buy Button*/
 .learnMoreBtns {
@@ -361,6 +526,8 @@ img.p50pocket-imgs {
     border: none;
 
     color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
 
     background-color: #000000;
 
@@ -383,6 +550,8 @@ img.p50pocket-imgs {
 
 .buyBtns {
     color: #000000;
+    font-size: 13px;
+    font-weight: bold;
 
     border: 1px solid silver;
     border-radius: 30px;
@@ -400,4 +569,49 @@ img.p50pocket-imgs {
     transform: translateX(5px);
 }
 
+@media (max-width: 576px) {
+    
+    .learnMoreBtns {
+        margin-bottom: 30px;
+    }
+
+}
+
 /*End Learn More and Buy Button*/
+
+/* Start Background Color  */
+
+.bgColors {
+    background-color: #f4f4f4;
+}
+
+.bgDarks {
+    background-color: #000000;
+}
+
+/* End Background Color  */
+
+/* Start Text Grey */
+
+.textgreys {
+    color: grey;
+}
+
+/* End Text Grey  */
+
+/* Start Text Dark  */
+
+.textdarks {
+    color: black;
+}
+
+/* End Text Dark  */
+
+/* Start Border Color */
+
+.borderColors {
+    border-color: #000000;
+}
+
+/* End Border Color  */
+

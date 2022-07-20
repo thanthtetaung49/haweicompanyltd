@@ -26,76 +26,83 @@
 
 <header>
 
-    <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+    <nav class="navbar navbar-expand-md fixed-top bgColors">
         <div class="container-fluid d-flex justify-content-between">
 
             <a href="index.html" class="navbar-brand">
                 <img src="./asset/img/icons/hawei_icon.png" width="50px" alt="hawei_icon">
-                <span class="text-capitalize fw-bold lead">hawei</span>
+                <span class="text-capitalize fw-bold lead textgreys">hawei</span>
             </a>
 
-            <button type="button" class="navbar-toggler navbarbuttons" data-bs-toggle="collapse"
+            <button type="button" class="navbar-toggler navbarbuttons textdarks borderColors" data-bs-toggle="collapse"
                     data-bs-target="#navdata">
-                <div class="bg-dark line_ones"></div>
-                <div class="bg-dark line_twos"></div>
+                    <div class="bgDarks line_ones"></div>
+                    <div class="bgDarks line_twos"></div>
             </button>
 
             <div id="navdata" class="navbar-collapse collapse">
                 <ul class="navbar-nav fw-bold item-links">
                     <li class="nav-item">
-                        <a href="#smartphone" class="nav-link text-capitalize">smart phone</a>
+                        <a href="#smartphone" class="nav-link text-capitalize textgreys">smart phone</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#pc" class="nav-link text-uppercase">pc</a>
+                        <a href="#pc" class="nav-link text-uppercase textgreys">pc</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#tablet" class="nav-link text-capitalize">tablet</a>
+                        <a href="#tablet" class="nav-link text-capitalize textgreys">tablet</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#wearable" class="nav-link text-capitalize">wearable</a>
+                        <a href="#wearable" class="nav-link text-capitalize textgreys">wearable</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#audio" class="nav-link text-capitalize">audio</a>
+                        <a href="#audio" class="nav-link text-capitalize textgreys">audio</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#router" class="nav-link text-capitalize">router</a>
+                        <a href="#router" class="nav-link text-capitalize textgreys">router</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#haweimobileservices" class="nav-link text-capitalize">hawei mobile services</a>
+                        <a href="#haweimobileservices" class="nav-link text-capitalize textgreys">hawei mobile services</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#emui" class="nav-link text-uppercase">emui</a>
+                        <a href="#emui" class="nav-link text-uppercase textgreys">emui</a>
                     </li>
+
+                    <li class="nav-item ms-md-5 ms-sm-0">
+                        <a href="#support" class="nav-link text-capitalize textgreys">support</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#retailstore" class="nav-link text-capitalize textgreys">retail store</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#business" class="nav-link text-capitalize textgreys">business</a>
+                    </li>
+
+                    <li class="form-check form-switch mt-2">
+                        <a href="#search"><i class="fa-solid fa-magnifying-glass mx-md-3 mx-sm-0 me-sm-3 textdarks"></i></a>
+                        <a href="#person"><i class="fa-solid fa-user textdarks"></i></a>
+
+                        <input type="checkbox" name="switch" id="darkbtns" class="form-check-input mt-1">
+                        <span class="fw-bold modTypes">Dark</span>
+                    </li>
+
+                    <!-- <li class="form-check form-switch ms-md-3 mt-1">
+                    </li> -->
                 </ul>
 
-            </div>
+                <!-- <div class="form-check form-switch mt-md-4 darkModBtns">
+                    <span for="darkbtns" class="mt-1 fw-bold modTypes">Dark</span>
+                    <input type="checkbox" name="switch" id="darkbtns" class="form-check-input mt-1">
+                </div> -->
 
-            <div id="navdata" class="navbar-collapse collapse">
-                <ul class="navbar-nav fw-bold item-links">
-                    <li class="nav-item">
-                        <a href="#support" class="nav-link text-capitalize">support</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#retailstore" class="nav-link text-capitalize">retail store</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#business" class="nav-link text-capitalize">business</a>
-                    </li>
-
-                    <li>
-                        <i class="fa-solid fa-magnifying-glass fa-2x mx-3"></i>
-                        <i class="fa-solid fa-user fa-2x"></i>
-                    </li>
-                </ul>
             </div>
         </div>
     </nav>
@@ -105,74 +112,76 @@
 
 <!-- Start caruosel Section -->
 
-<section id="" class="caruosel-sections my-4">
+<section id="caruoselSections" class="my-5 caruosel-sections">
     <div class="container-fluid">
-        <div id="haweicarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="col-md-11 mx-auto">
+            <div id="haweicarousel" class="carousel carousel-dark slide bgColors" data-bs-ride="carousel">
 
-            <ul class="carousel-indicators">
-                <li class="active" data-bs-target="#haweicarousel" data-bs-slide-to="0"></li>
-                <li data-bs-target="#haweicarousel" data-bs-slide-to="1"></li>
-                <li data-bs-target="#haweicarousel" data-bs-slide-to="2"></li>
-            </ul>
-
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-5 mt-3 mx-auto">
-                            <img src="./asset/img/carousel/smartwatch.png" width="600px" height="400px"
-                                 alt="smartwatch">
-                        </div>
-
-                        <div class="col-md-6 mt-3">
-                            <h1 class="fw-bold text-uppercase">hawei<span class="display-6 ms-2">brand 7</span></h1>
-                            <p class="my-4">
-                                Ultra-Thin Design | Automatic SpO2 | 2-week battery life
-                            </p>
-
-                            <button class="text-capitalize me-2 learnMoreBtns">learn more<i
-                                    class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
-                            <button class="text-capitalize buyBtns">buy<i
-                                    class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-5 mt-3 mx-auto">
-                            <img src="./asset/img/carousel/hawei_p50.png" width="600px" height="400px" alt="hawei_p50">
-                        </div>
-
-                        <div class="col-md-6 my-3 hawei-p50s">
-                            <h1 class="fw-bold text-uppercase">HUAWEI P50 Pocket</h1>
-
-                            <button type="btn"
-                                    class="btn btn-md btn-dark text-capitalize rounded-pill px-3 py-2 my-4 mb-4">HAWEI
-                                P50 Pocket
-                            </button>
+                <ul class="carousel-indicators">
+                    <li class="active" data-bs-target="#haweicarousel" data-bs-slide-to="0"></li>
+                    <li data-bs-target="#haweicarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#haweicarousel" data-bs-slide-to="2"></li>
+                </ul>
+    
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-6 my-5 mx-auto">
+                                <img src="./asset/img/carousel/smartwatch.png" width="600px" height="400px"
+                                     alt="smartwatch">
+                            </div>
+    
+                            <div class="col-md-6 col-sm-6 my-5">
+                                <h1 class="fw-bold text-uppercase textdarks">hawei<span class="display-6 ms-2">brand 7</span></h1>
+                                <p class="my-4 textgreys">
+                                    Ultra-Thin Design | Automatic SpO2 | 2-week battery life
+                                </p>
+    
+                                <button class="text-capitalize me-2 learnMoreBtns">learn more<i
+                                        class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                                <button class="text-capitalize buyBtns">buy<i
+                                        class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-5 mt-3 mx-auto">
-                            <img src="./asset/img/carousel/haweiwatch-gt3.png" width="600px" height="400px"
-                                 alt="haweiwatch-gt3">
+    
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-6 my-5 mx-auto">
+                                <img src="./asset/img/carousel/hawei_p50.png" width="600px" height="400px" alt="hawei_p50">
+                            </div>
+    
+                            <div class="col-md-6 col-sm-6 my-5 hawei-p50s">
+                                <h1 class="fw-bold text-uppercase textdarks">HUAWEI P50 Pocket</h1>
+    
+                                <button type="btn"
+                                        class="btn btn-md btn-dark text-capitalize rounded-pill px-3 py-2 my-4 mb-4">HAWEI
+                                    P50 Pocket
+                                </button>
+                            </div>
                         </div>
-
-                        <div class="col-md-6 my-3 hawei-watchgt3s">
-                            <h1 class="fw-bold text-uppercase">hawei<span class="display-6 ms-2">WATCH GT 3 Pro</span>
-                            </h1>
-
-                            <p class="my-4">
-                                Premium Titanium Body | 100+ Workout Mode | All-day Health Management
-                            </p>
-
-                            <button class="text-capitalize me-2 learnMoreBtns">learn more<i
-                                    class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
-                            <button class="text-capitalize buyBtns">buy<i
-                                    class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-6 my-5 mx-auto mx-sm-0">
+                                <img src="./asset/img/carousel/haweiwatch-gt3.png" width="600px" height="400px"
+                                     alt="haweiwatch-gt3">
+                            </div>
+    
+                            <div class="col-md-6 col-sm-6 my-5 hawei-watchgt3s">
+                                <h1 class="fw-bold text-uppercase textdarks">hawei<span class="display-6 ms-2">WATCH GT 3 Pro</span>
+                                </h1>
+    
+                                <p class="my-4 textgreys">
+                                    Premium Titanium Body | 100+ Workout Mode | All-day Health Management
+                                </p>
+    
+                                <button class="text-capitalize me-2 learnMoreBtns">learn more<i
+                                        class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                                <button class="text-capitalize buyBtns">buy<i
+                                        class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -185,29 +194,30 @@
 
 <!-- Start P-50 Pro Section  -->
 
-<section id="" class="my-4">
+<section id="pro" class="my-4 proSections">
     <div class="container-fluid">
-        <div class="p50-sections">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 mt-4 p50-infos">
-                    <h6 class="text-danger fw-bold text-uppercase">new</h6>
-                    <h1 class="my-4">HUAWEI P50 Pro</h1>
-                    <small class="text-muted mb-4">True-Form Dual-Matrix Camera | 6.6'' True-Chroma Display, 120 H |
-                        Dual HUAWEI SuperCharge, IP68</small>
 
-                    <button class="text-capitalize me-2 learnMoreBtns">learn more<i
-                            class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
-                    <button class="text-capitalize buyBtns">buy<i class="fa-solid fa-angle-right ms-2 angleRights"></i>
-                    </button>
+        <div class="col-md-11 col-sm-12 mx-auto">
+            <div class="p50Sections bgColors">
+                <div class="row">
+                    <div class="col-sm-6 mt-md-4 p50Infos">
+                        <h6 class="text-danger fw-bold text-uppercase">new</h6>
+                        <h1 class="my-4 textdarks">HUAWEI P50 Pro</h1>
+                        <small class="mb-4 textgreys">True-Form Dual-Matrix Camera | 6.6'' True-Chroma Display, 120 H |
+                            Dual HUAWEI SuperCharge, IP68</small>
+    
+                        <button class="text-capitalize me-2 learnMoreBtns">learn more<i
+                                class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                        <button class="text-capitalize buyBtns">buy<i class="fa-solid fa-angle-right ms-2 angleRights"></i>
+                        </button>
+                    </div>
+    
+                    <div class="col-sm-6 elephants">
+                        <img src="./asset/img/section_img/elephant.webp" class="elephant-ones" width="95%" height="500px" alt="elephant">
+    
+                        <img src="./asset/img/section_img/p50pro.png" class="p50Images" alt="hawei_p50_pro">
+                    </div>
                 </div>
-
-                <div class="col-md-6 col-sm-6 elephants">
-                    <img src="./asset/img/section_img/elephant.webp" class="elephant-ones" width="95%" height="500px"
-                         alt="elephant">
-
-                    <img src="./asset/img/section_img/p50pro.png" class="p50-imgs" alt="hawei_p50_pro">
-                </div>
-
             </div>
         </div>
     </div>
@@ -217,26 +227,29 @@
 
 <!-- Start P-50 Pocket Section  -->
 
-<section id="" class="my-4">
+<section id="pocket" class="my-4 pocketSections">
     <div class="container-fluid">
-        <div class="pocket-sections">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 snowhomes">
-                    <img src="./asset/img/section_img/snowhome.jpg" class="snowhome-ones" width="100%" height="500px"
-                         alt="snowhome">
-
-                    <img src="./asset/img/section_img/p50pocket.png" class="p50pocket-imgs" alt="p50pocket">
-                </div>
-
-                <div class="col-md-6 col-sm-6 mt-4 pocket-infos">
-                    <h6 class="text-danger fw-bold text-uppercase">new</h6>
-                    <h1 class="my-4">HUAWEI P50 Pocket</h1>
-                    <small class="text-muted mb-4">remium Foldable Design</small>
-
-                    <button class="text-capitalize me-2 learnMoreBtns">learn more<i
-                            class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
-                    <button class="text-capitalize buyBtns">buy<i class="fa-solid fa-angle-right ms-2 angleRights"></i>
-                    </button>
+        <div class="col-md-11 mx-auto">
+            <div class="pocketSections bgColors">
+                <div class="row">
+                    <div class="col-sm-6 snowhomes">
+    
+                        <img src="./asset/img/section_img/snowhome.jpg" class="snowhomesOnes" width="100%" height="500px" alt="snowhome">
+    
+                        <img src="./asset/img/section_img/p50pocket.png" class="p50PocketImages" alt="p50pocket">
+    
+                    </div>
+    
+                    <div class="col-sm-6 mt-md-4 pocketInfos">
+                        <h6 class="text-danger fw-bold text-uppercase">new</h6>
+                        <h1 class="my-4 textdarks">HUAWEI P50 Pocket</h1>
+                        <small class="mb-4 textgreys">remium Foldable Design</small>
+    
+                        <button class="text-capitalize me-2 learnMoreBtns">learn more<i
+                                class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                        <button class="text-capitalize buyBtns">buy<i class="fa-solid fa-angle-right ms-2 angleRights"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -245,32 +258,36 @@
 
 <!-- End P-50 Pocket Section  -->
 
-<!-- Start HAWEI Watch Fit 2  -->
+<!-- Start HUAWEI Watch Fit 2  -->
 
-<section id="" class="my-4">
+<section id="huaweiWatchFit" class="my-4 huaweiWatchFitSections">
     <div class="container-fluid">
-        <div class="watchfit-sections">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 mt-4">
-                    <div class="mx-auto watchfit-infos">
-                        <h1 class="text-uppercase fw-bold">hawei watch fit 2</h1>
-                        <small class="text-muted my-4">
-                            Explore more possibilities on the 1.74-inch HUAWEI FullView Display, with Bluetooth calling and
-                            health living management to make it your great companion.
-                        </small>
-
-                        <button class="text-capitalize me-2 learnMoreBtns">learn more<i
-                                class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
-                        <button class="text-capitalize buyBtns">buy<i class="fa-solid fa-angle-right ms-2 angleRights"></i>
-                        </button>
+        <div class="col-md-11 mx-auto">
+            <div class="watchfitSections bgColors">
+                <div class="row">
+                    <div class="col-sm-6 mt-4 ps-md-5">
+                        <div class="watchfitInfos">
+                            <h1 class="text-uppercase fw-bold textdarks">hawei watch fit 2</h1>
+                            <small class="my-4 textgreys">
+                                Explore more possibilities on the 1.74-inch HUAWEI FullView Display, with Bluetooth calling
+                                and
+                                health living management to make it your great companion.
+                            </small>
+    
+                            <button class="text-capitalize me-2 mb-md-5 learnMoreBtns">learn more<i
+                                    class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                            <button class="text-capitalize buyBtns">buy<i
+                                    class="fa-solid fa-angle-right ms-2 angleRights"></i>
+                            </button>
+                        </div>
                     </div>
-                </div>
-
-                <div class="col-md-6 col-sm-6 watchfit-imgs">
-                    <img src="./asset/img/section_img/haweiwatchfit.jpg" class="watchfit-ones" width="100%"
-                         heignt="400px" alt="haweiwatchfit">
-
-                    <img src="./asset/img/section_img/watchfit.png" class="watchfit-twos" alt="watchfit">
+    
+                    <div class="col-sm-6 watchfitImages">
+                        <img src="./asset/img/section_img/haweiwatchfit.jpg" class="watchfitOnes" width="100%"
+                             heignt="400px" alt="haweiwatchfit">
+    
+                        <img src="./asset/img/section_img/watchfit.png" class="watchfitTwos" alt="watchfit">
+                    </div>
                 </div>
             </div>
         </div>
@@ -281,163 +298,166 @@
 
 <!-- Start Smartphone Section  -->
 
-<section id="smartphone" class="my-4">
+<section id="smartphone" class="my-4 smartphoneSections">
     <div class="container-fluid">
+        <div class="col-md-11 mx-auto">
+            <!-- Start title  -->
+            <div class="col-12 mt-sm-5">
+                <h1 class="textdarks">Explore All Products</h1>
+                <h3 class="display-4 mb-3 textdarks">Smartphone</h3>
 
-        <!-- Start title  -->
-        <div class="col-12">
-            <h1 class="">Explore All Products</h1>
-            <h3 class="display-4 mb-3">Smartphone</h3>
-        </div>
-        <!-- End title  -->
-
-        <div class="smartphones">
-            <div class="row">
-                <div class="col-md-7 smartphone-imgs">
-                    <img src="./asset/img/phone/Huawei-Nova-9-Aufmacher-Advertorial.jpg" width="100%"
-                         alt="Huawei-Nova-9-Aufmacher-Advertorial">
-                </div>
-
-                <div class="col-md-4 smartphone-txts">
-                    <div>
-                        <p>Recognisable at a Glance</p>
-
-                        <button type="button" class="btn btn-dark rounded-pill">View All Smartphones</button>
+                <div class="advProducts bgColors">
+                    <div class="row">
+                        <div class="col-md-7 advProductImages">
+                            <img src="./asset/img/phone/Huawei-Nova-9-Aufmacher-Advertorial.jpg" width="100%"
+                                 alt="Huawei-Nova-9-Aufmacher-Advertorial">
+                        </div>
+        
+                        <div class="col-md-4 advProductTexts">
+                            <div>
+                                <p class="textdarks">Recognisable at a Glance</p>
+        
+                                <button type="button" class="btn btn-dark rounded-pill fw-bold">View All Smartphones</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- End title  -->
         </div>
-
     </div>
 </section>
 
 <!-- End Smartphone Section  -->
 
-<!-- Start Smart Phone Product Section  -->
+<!-- Start Smartphone Product Section  -->
 
-<section>
+<section id="smartphoneProduct" class="mt-5 smartphoneProductSections">
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-5 col-sm-5 mx-auto">
-                <div class="card">
-                    <div class="card-body">
-                        <h6 class="text-danger text-uppercase">new</h6>
-
-                        <div class="text-center mt-5">
-                            <h1 class="display-5">HUAWEI P50 Pro</h1>
-                            <p class="text-muted mx-auto my-4 bigCards">
-                                True-Form Dual-Matrix Camera
-                                6.6'' True-Chroma Display, 120 Hz
-                                Dual HUAWEI SuperCharge, IP68
-                            </p>
-
-                            <button class="text-capitalize me-2 learnMoreBtns">learn more<i
-                                    class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
-                            <button class="text-capitalize buyBtns">buy<i
-                                    class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
-                        </div>
-
-                        <div class="bigCardImages text-center">
-                            <img src="./asset/img/phone/p50-pro.png" width="450px" alt="p50pro"/>
+        <div class="col-md-11 mx-auto">
+            <div class="row">
+                <div class="col-md-5 col-sm-11 mx-auto mb-sm-4">
+                    <div class="card bgColors">
+                        <div class="card-body">
+                            <h6 class="text-danger text-uppercase">new</h6>
+    
+                            <div class="text-center mt-5">
+                                <h1 class="display-5 textdarks">HUAWEI P50 Pro</h1>
+                                <p class="mx-auto my-4 bigCards textgreys">
+                                    True-Form Dual-Matrix Camera
+                                    6.6'' True-Chroma Display, 120 Hz
+                                    Dual HUAWEI SuperCharge, IP68
+                                </p>
+    
+                                <button class="text-capitalize me-2 learnMoreBtns">learn more<i
+                                        class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                                <button class="text-capitalize buyBtns">buy<i
+                                        class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                            </div>
+    
+                            <div class="text-center CardImages">
+                                <img src="./asset/img/phone/p50-pro.png" width="420px" alt="p50pro"/>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-7">
-                <div class="row">
-
-                    <div class="col-sm-5 mx-auto">
-                        <div class="card mb-3 smallCards">
-                            <div class="card-body">
-                                <h6 class="text-danger text-uppercase">new</h6>
-
-                                <div class="d-flex justify-content-center">
-                                    <img src="./asset/img/phone/haweip50.png" width="150px" alt="huawei p50 pocket"/>
-                                </div>
-
-                                <h6 class="text-center">HUAWEI P50 Pocket</h6>
-                                <p class="text-muted text-center phoneSpecifications">Premium Foldable Design</p>
-
-                                <div class="phoneSectionLinks text-center mt-5">
-                                    <a href="#" class="text-dark fw-bold text-capitalize me-3">learn more<i
-                                            class="fa-solid fa-angle-right ms-2"></i></a>
-                                    <a href="#" class="text-dark fw-bold text-capitalize">buy<i
-                                            class="fa-solid fa-angle-right ms-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-5 mx-auto">
-                        <div class="card mb-3 smallCards">
-                            <div class="card-body">
-                                <h6 class="text-danger text-uppercase" style="opacity: 0">new</h6>
-
-                                <div class="d-flex justify-content-center">
-                                    <img src="./asset/img/phone/haweimate40pro.png" width="150px" alt="huawei mate 40"/>
-                                </div>
-
-                                <h6 class="text-center mt-4">HUAWEI Mate 40 Pro</h6>
-                                <p class="text-muted text-center phoneSpecifications">5nm Kirin 9000 5G SoC Chipset
-                                    Ultra Vision Cine Camera and Selfie Camera
-                                    Dual HUAWEI SuperCharge</p>
-
-                                <div class="phoneSectionLinks text-center">
-                                    <a href="#" class="text-dark fw-bold text-capitalize me-3">learn more<i
-                                            class="fa-solid fa-angle-right ms-2"></i></a>
-                                    <a href="#" class="text-dark fw-bold text-capitalize">buy<i
-                                            class="fa-solid fa-angle-right ms-2"></i></a>
+    
+                <div class="col-md-7">
+                    <div class="row">
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card mb-3 smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/phone/haweip50.png" width="150px" alt="huawei p50 pocket"/>
+                                    </div>
+    
+                                    <h6 class="text-center textdarks">HUAWEI P50 Pocket</h6>
+                                    <p class="text-center itemSpecifications textgreys">Premium Foldable Design</p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-sm-5 mx-auto">
-                        <div class="card smallCards">
-                            <div class="card-body">
-                                <h6 class="text-danger text-uppercase" style="visibility: hidden">new</h6>
-
-                                <div class="d-flex justify-content-center">
-                                    <img src="./asset/img/phone/p40pro.png" width="150px" alt="huawei p40"/>
-                                </div>
-
-                                <h6 class="text-center mt-5">HUAWEI P40 Pro</h6>
-                                <p class="text-muted text-center phoneSpecifications">Ultra Vision Leica Quad Camera,
-                                    1/1.28 inch Sensor
-                                    Kirin 990 5G
-                                    90 Hz Display, IP68</p>
-
-                                <div class="phoneSectionLinks text-center mt-4">
-                                    <a href="#" class="text-dark fw-bold text-capitalize me-3">learn more<i
-                                            class="fa-solid fa-angle-right ms-2"></i></a>
-                                    <a href="#" class="text-dark fw-bold text-capitalize">buy<i
-                                            class="fa-solid fa-angle-right ms-2"></i></a>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card mb-3 smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="opacity: 0">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/phone/haweimate40pro.png" width="150px" alt="huawei mate 40"/>
+                                    </div>
+    
+                                    <h6 class="text-center mt-4 textdarks">HUAWEI Mate 40 Pro</h6>
+                                    <p class="text-center itemSpecifications textgreys">5nm Kirin 9000 5G SoC Chipset
+                                        Ultra Vision Cine Camera and Selfie Camera
+                                        Dual HUAWEI SuperCharge</p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-sm-5 mx-auto">
-                        <div class="card smallCards">
-                            <div class="card-body">
-                                <h6 class="text-danger text-uppercase" style="opacity: 0">new</h6>
-
-                                <div class="d-flex justify-content-center">
-                                    <img src="./asset/img/phone/p40-pro-plus-white.png" width="150px" alt="huawei p50 pro plus"/>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="visibility: hidden">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/phone/p40pro.png" width="150px" alt="huawei p40"/>
+                                    </div>
+    
+                                    <h6 class="text-center mt-5 textdarks">HUAWEI P40 Pro</h6>
+                                    <p class="text-center itemSpecifications textgreys">Ultra Vision Leica Quad Camera,
+                                        1/1.28 inch Sensor
+                                        Kirin 990 5G
+                                        90 Hz Display, IP68</p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
                                 </div>
-
-                                <h6 class="text-center mt-4">HUAWEI P40 Pro+</h6>
-                                <p class="text-muted text-center phoneSpecifications">Ultra Vision Leica Penta Camera,
-                                    1/1.28 inch Sensor
-                                    10x Optical Zoom, 100x Max Zoom
-                                    Nano Ceramic, 90 Hz Display, IP68</p>
-
-                                <div class="phoneSectionLinks text-center">
-                                    <a href="#" class="text-dark fw-bold text-capitalize me-3">learn more<i
-                                            class="fa-solid fa-angle-right ms-2"></i></a>
-                                    <a href="#" class="text-dark fw-bold text-capitalize">buy<i
-                                            class="fa-solid fa-angle-right ms-2"></i></a>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="opacity: 0">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/phone/p40-pro-plus-white.png" width="150px"
+                                             alt="huawei p50 pro plus"/>
+                                    </div>
+    
+                                    <h6 class="text-center mt-4 textdarks">HUAWEI P40 Pro+</h6>
+                                    <p class="text-center itemSpecifications textgreys">Ultra Vision Leica Penta Camera,
+                                        1/1.28 inch Sensor
+                                        10x Optical Zoom, 100x Max Zoom
+                                        Nano Ceramic, 90 Hz Display, IP68</p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -448,11 +468,936 @@
     </div>
 </section>
 
-<!-- End Smart Phone Product Section  -->
+<!-- End Smartphone Product Section  -->
+
+<!--Start PC Section -->
+
+<section id="pc" class="sectionTops pcSections">
+    <div class="container-fluid">
+
+        <div class="col-md-11 mx-auto">
+            <!-- Start title  -->
+            <div class="col-12">
+                <h3 class="display-4 text-uppercase mb-3 textdarks">pc</h3>
+            </div>
+            <!-- End title  -->
+
+            <div class="advProducts bgColors">
+                <div class="row">
+                    <div class="col-md-7 advProductImages">
+                        <img src="./asset/img/laptop/laptop.jpg" width="100%"
+                             alt="laptop image">
+                    </div>
+    
+                    <div class="col-md-4 advProductTexts">
+                        <div>
+                            <p class="textdarks">Make Your PC and Phone One Device</p>
+    
+                            <button type="button" class="btn btn-dark rounded-pill fw-bold">View All PCs & Monitors</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--End PC Section -->
+
+<!--Start PC Product Section -->
+
+<section id="pcProduct" class="mt-5 pcProductSections">
+    <div class="container-fluid">
+        <div class="col-md-11 mx-auto">
+            <div class="row">
+                <div class="col-md-5 col-sm-11 mx-auto mb-sm-4">
+                    <div class="card bgColors">
+                        <div class="card-body">
+                            <h6 class="text-danger text-uppercase">new</h6>
+    
+                            <div class="text-center mt-5">
+                                <h1 class="display-5 textdarks">HUAWEI MateBook X Pro 2021</h1>
+                                <p class="mx-auto my-4 bigCards textgreys">
+                                    11th Gen Intel® Core™
+                                </p>
+    
+                                <button class="text-capitalize me-2 learnMoreBtns">learn more<i
+                                        class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                                <button class="text-capitalize buyBtns">buy<i
+                                        class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                            </div>
+    
+                            <div class="text-center CardImages">
+                                <img src="./asset/img/laptop/huawei-matebook-x-pro.png" width="400px"
+                                     alt="huawei matebook x pro"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-7">
+                    <div class="row">
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card mb-3 smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/laptop/hawei%20matebook%2014s.png" width="150px"
+                                             alt="huawei matebook 14s"/>
+                                    </div>
+    
+                                    <h6 class="text-center textdarks">HUAWEI MateBook 14s</h6>
+                                    <p class="text-center itemSpecifications textgreys">2.5K HUAWEI FullView Display
+                                        90 Hz High Refresh Rate
+                                        Portable Powerhouse</p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card mb-3 smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="opacity: 0">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/laptop/matebook-13-gray.png" width="130px"
+                                             alt="matebook 13 gray"/>
+                                    </div>
+    
+                                    <h6 class="text-center textdarks">HUAWEI MateBook 13</h6>
+                                    <p class="text-center itemSpecifications textgreys">10th Gen Intel® Core™</p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="visibility: hidden">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/laptop/hawei%20matebook%20D15%202021.png" width="130px" alt="huawei matebook d15"/>
+                                    </div>
+    
+                                    <h6 class="text-center textdarks">HUAWEI MateBook D15 2021</h6>
+                                    <p class="text-center itemSpecifications textgreys">10th Gen Intel® Core™</p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="opacity: 0">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/laptop/hawei%20mateview%20gt%2033.png" width="130px"
+                                             alt="huawei mate view"/>
+                                    </div>
+    
+                                    <h6 class="text-center textdarks">HUAWEI MateView GT 34-inch Sound Edition</h6>
+                                    <p class="text-center itemSpecifications textgreys">34" Curved Monitor
+                                        3K 165Hz Display
+                                        Stereo Soundbar</p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--End PC Product Section -->
+
+<!-- Start Tablet Section  -->
+
+<section id="tablet" class="sectionTops tabletSections">
+    <div class="container-fluid">
+
+        <div class="col-md-11 mx-auto">
+
+            <!-- Start title  -->
+            <div class="col-12">
+                <h3 class="display-4 text-uppercase mb-3 textdarks">tablet</h3>
+            </div>
+            <!-- End title  -->
+
+            <div class="advProducts bgColors">
+                <div class="row">
+                    <div class="col-md-7 advProductImages">
+                        <img src="./asset/img/tablet/tablet.jpg" width="100%"
+                        alt="tablet image">
+                    </div>
+
+                    <div class="col-md-4 advProductTexts">
+                        <div>
+                            <p class="textdarks">A Partner for Every Task</p>
+
+                            <button type="button" class="btn btn-dark rounded-pill fw-bold">View All Tablets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Tablet Section  -->
+
+<!-- Start Tablet Product Section  -->
+
+<section id="tabletProduct" class="mt-5 tabletProductSections">
+    <div class="container-fluid">
+        <div class="col-md-11 mx-auto">
+            <div class="row">
+                <div class="col-md-5 col-sm-11 mx-auto mb-sm-4">
+                    <div class="card bgColors">
+                        <div class="card-body">
+                            <h6 class="text-danger text-uppercase">new</h6>
+    
+                            <div class="text-center mt-5">
+                                <h1 class="display-5 textdarks">HUAWEI MatePad pro 12.6-inch</h1>
+                                <p class="mx-auto my-4 bigCards textgreys">
+                                    12.6" OLED FullView Display Kirin 9000E Chipset HarmonyOS 2
+                                </p>
+    
+                                <button class="text-capitalize me-2 learnMoreBtns">learn more<i
+                                        class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                                <button class="text-capitalize buyBtns">buy<i
+                                        class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                            </div>
+    
+                            <div class="text-center CardImages">
+                                <img src="./asset/img/tablet/matepad-pro-12-6-pc.png" width="450px"
+                                     alt="huawei matepad pro"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-7">
+                    <div class="row">
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card mb-3 smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/tablet/hawei matepad midnight grey.png" width="150px" alt="huawei matepad pro"/>
+                                    </div>
+    
+                                    <h6 class="text-center textdarks">HUAWEI MatePad Pro</h6>
+                                    <p class="text-center itemSpecifications textgreys">
+                                        HUAWEI FullView Display Kirin 990 Flagship Chipset Quad-speaker Sound System
+                                    </p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card mb-3 smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="opacity: 0">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/tablet/matepad-11-list-grey.png" width="150px" alt="hawei matepad 11 list grey"/>
+                                    </div>
+    
+                                    <h6 class="text-center textdarks">HUAWEI MatePad 11</h6>
+                                    <p class="text-center itemSpecifications textgreys">20 Hz HUAWEI FullView Display HUAWEI M-Pencil</p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="visibility: hidden">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/tablet/huawei matepad.png" width="170px" alt="huawei matepad"/>
+                                    </div>
+    
+                                    <h6 class="text-center mt-4 textdarks">HUAWEI MatePad</h6>
+                                    <p class="text-center itemSpecifications textgreys">2K FullView Display Immersive Surround Sound HUAWEI Share</p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="opacity: 0">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/tablet/hawei matepad T 10s.png" width="150px" alt="Huawei matepad T10s"/>
+                                    </div>
+    
+                                    <h6 class="text-center textdarks">HUAWEI MatePad T 10s</h6>
+                                    <p class="text-center itemSpecifications textgreys">
+                                        Full HD Display Eye Protection Tuned by Harman Kardon
+                                    </p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy
+                                            <i class="fa-solid fa-angle-right ms-2"></i>
+                                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Tablet Product Section  -->
+
+<!-- Start Wearable Section  -->
+
+<section id="wearable" class="sectionTops wearableSections">
+    <div class="container-fluid">
+        <div class="col-md-11 mx-auto">
+            <!-- Start title  -->
+            <div class="col-12">
+                <h3 class="display-4 text-uppercase mb-3 textdarks">wearable</h3>
+            </div>
+            <!-- End title  -->
+
+            <div class="advProducts bgColors">
+                <div class="row">
+                    <div class="col-md-7 advProductImages">
+                        <img src="./asset/img/wearable/huawei-watch-gt-3.jpg" width="100%" alt="wearable image">
+                    </div>
+    
+                    <div class="col-md-4 advProductTexts">
+                        <div>
+                            <p class="textdarks">More Possibilities on Your Wrist</p>
+    
+                            <button type="button" class="btn btn-dark rounded-pill fw-bold">View All Wearable</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Wearable Section  -->
+
+<!-- Start Wearable Product Section  -->
+
+<section id="wearableProduct" class="mt-5 wearableProductSections">
+    <div class="container-fluid">
+        <div class="col-md-11 mx-auto">
+            <div class="row">
+                <div class="col-md-5 col-sm-11 mx-auto mb-sm-4">
+                    <div class="card bgColors">
+                        <div class="card-body">
+                            <h6 class="text-danger text-uppercase">new</h6>
+    
+                            <div class="text-center mt-5">
+                                <h1 class="display-5 textdarks">HUAWEI Watch GT 3 Pro Titanium
+                                </h1>
+                                <p class="textgreys mx-auto my-4 bigCards">
+                                    Premium Titanium Body 100+ Workout Mode All-day Health Management
+                                </p>
+    
+                                <button class="text-capitalize me-2 learnMoreBtns">learn more<i
+                                        class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                                <button class="text-capitalize buyBtns">buy<i
+                                        class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                            </div>
+    
+                            <div class="text-center CardImages">
+                                <img src="./asset/img/wearable/hawei watch gt 3 pro.png" width="400px" alt="huawei watch gt3 pro"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-7">
+                    <div class="row">
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card mb-3 smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/wearable/huawei-watch-fit-2.png" width="100px" alt="huawei watch fit 2"/>
+                                    </div>
+    
+                                    <h6 class="text-center mt-4 textdarks">HUAWEI WATCH FIT 2</h6>
+                                    <p class="text-center itemSpecifications textgreys">
+                                        .74-inch HUAWEI FullView Display Bluetooth Calling Healthy Living Management
+                                    </p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card mb-3 smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="opacity: 0">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/wearable/hawei watch gt 3.png" width="150px" alt="hawei watch gt 3"/>
+                                    </div>
+    
+                                    <h6 class="text-center mt-5 textdarks">HUAWEI WATCH GT 3</h6>
+                                    <p class="text-center itemSpecifications textgreys">All-Day SpO2 Monitoring
+                                        AI Running Coach
+                                        Durable Battery Life</p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="visibility: hidden">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/wearable/hawei watch 3 pro.png" width="100px" alt="huawei watch 3 pro"/>
+                                    </div>
+    
+                                    <h6 class="text-center mt-5 textdarks">HUAWEI WATCH 3 Pro</h6>
+                                    <p class="text-center itemSpecifications textgreys">eSIM Cellular Calling
+                                        All-day Health Monitoring
+                                        5-Day Battery Life</p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="opacity: 0">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/wearable/hawei band 6.png" width="150px" alt="Huawei band 6"/>
+                                    </div>
+    
+                                    <h6 class="text-center mt-5 textdarks">HUAWEI Band 6</h6>
+                                    <p class="text-center itemSpecifications textgreys">
+                                        All-Day SpO2 Monitoring FullView Display 2-Week Battery Life
+                                    </p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy
+                                            <i class="fa-solid fa-angle-right ms-2"></i>
+                                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Wearable Product Section  -->
+
+<!-- Start Audio Section  -->
+
+<section id="audio" class="sectionTops audioSections">
+    <div class="container-fluid">
+
+        <div class="col-md-11 mx-auto">
+            <!-- Start title  -->
+            <div class="col-12">
+                <h3 class="display-4 text-uppercase mb-3 textdarks">Audio</h3>
+                </div>
+            <!-- End title  -->
+
+            <div class="advProducts bgColors">
+                <div class="row">
+                    <div class="col-md-7 advProductImages">
+                        <img src="./asset/img/audio/audio cover.jpg" width="100%" alt="audio">
+                    </div>
+    
+                    <div class="col-md-4 advProductTexts">
+                        <div>
+                            <p class="textdarks">Astonishing Sound in Every Moment</p>
+    
+                            <button type="button" class="btn btn-dark rounded-pill fw-bold">View All Headphones</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Audio Section  -->
+
+<!-- Start Audio Product Section  -->
+
+<section id="audioproduct" class="mt-5 audioProductSections">
+    <div class="container-fluid">
+        <div class="col-md-11 mx-auto">
+            <div class="row">
+                <div class="col-md-5 col-sm-11 mx-auto mb-sm-4">
+                    <div class="card bgColors">
+                        <div class="card-body">
+                            <h6 class="text-danger text-uppercase">new</h6>
+    
+                            <div class="text-center mt-5">
+                                <h1 class="display-5 textdarks">HUAWEI FreeBuds Lipstick
+                                </h1>
+                                <p class="mx-auto my-4 bigCards textgreys">
+                                    High Resolution Sound Air-Like Comfort Open-Fit Active Noise Cancellation 2.0
+                                </p>
+    
+                                <button class="text-capitalize me-2 learnMoreBtns">learn more<i
+                                        class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                                <button class="text-capitalize buyBtns">buy<i
+                                        class="fa-solid fa-angle-right ms-2 angleRights"></i></button>
+                            </div>
+    
+                            <div class="text-center CardImages">
+                                <img src="./asset/img/audio/freebuds-lipstick.png" width="300px" alt="freebuds-lipstick"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-7">
+                    <div class="row">
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card mb-3 smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/audio/hawei freebuds pro.png" width="150px" alt="hawei freebuds pro"/>
+                                    </div>
+    
+                                    <h6 class="text-center mt-5 textdarks">HUAWEI FreeBuds Pro</h6>
+                                    <p class="text-center itemSpecifications textgreys">
+                                        Redefine Noise Cancellation Intelligent Dynamic ANC Seamless Connection
+                                    </p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card mb-3 smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="opacity: 0">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/audio/freebuds4.png" width="150px" alt="hawei freebuds4"/>
+                                    </div>
+    
+                                    <h6 class="text-center mt-5 textdarks">HUAWEI FreeBuds 4</h6>
+                                    <p class="text-center itemSpecifications textgreys">Open-fit Active Noise Cacellation 2.0 Air-like Comfort High Resolution Sound</p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="visibility: hidden">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/audio/free buds studio.png" width="150px" alt="huawei freebuds studio"/>
+                                    </div>
+    
+                                    <h6 class="text-center mt-5 textdarks">HUAWEI FreeBuds Studio</h6>
+                                    <p class="text-center itemSpecifications textgreys">Intelligent Dynamic ANC
+                                        High Resolution Audio
+                                        Awareness Mode</p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-5 mx-auto">
+                            <div class="card smallCards bgColors">
+                                <div class="card-body">
+                                    <h6 class="text-danger text-uppercase" style="opacity: 0">new</h6>
+    
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./asset/img/audio/Huawei-Freelace-Pro.png" width="150px" alt="Huawe Huawei-Freelace-Pro"/>
+                                    </div>
+    
+                                    <h6 class="text-center mt-5 textdarks">HUAWEI FreeLace Pro</h6>
+                                    <p class="text-center itemSpecifications textgreys">
+                                        Dual-mic active noise cancellation Awareness mode, connect with the world 14 mm driver, powerful sound
+                                    </p>
+    
+                                    <div class="text-center mt-5 itemSectionLinks">
+                                        <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
+                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                        <a href="#" class="textdarks fw-bold text-capitalize">buy
+                                            <i class="fa-solid fa-angle-right ms-2"></i>
+                                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Product Section  -->
+
+<!-- Start Huawei Smart Office And EMUI 10.1  -->
+
+<section id="officeandemui" class="officeandEmuiSections sectionTops">
+    <div class="container-fluid">
+        <div class="col-md-11 mx-auto">
+            <div class="officeEmuiSections bgColors">
+                <div class="row">
+    
+                    <!-- Start huawei smart office  -->
+        
+                    <div class="col-md-6 col-sm-10 mx-auto mt-sm-5 mt-md-0 smartOffices">
+                        <img src="./asset/img/office and emui/huawei-smart-office.jpg" width="100%" height="350px" alt="huawei smart office">
+        
+                        <!-- Start title  -->
+        
+                        <div class="mx-md-5 mx-sm-0 mt-5 aboutOfficeEmuis">
+                            <h3 class="textdarks">HUAWEI Smart Office</h3>
+                            <p class="textgreys">Boundless Creation, Seamless Communication</p>
+        
+                            <button type="button" class="text-uppercase mt-3 mb-4">learn more</button>
+                        </div>
+        
+                        <!-- End title  -->
+                    </div>
+                    <!-- End huawei smart office  -->
+        
+                    <!-- Start emui 10.1  -->
+        
+                    <div class="col-md-6 col-sm-10 mx-auto emuis">
+                        <img src="./asset/img/office and emui/emui10.1.webp" width="100%" height="350px" alt="emui 10.1">
+        
+                        <!-- Start title  -->
+        
+                        <div class="mx-md-5 mx-sm-0 mt-5 aboutOfficeEmuis">
+                            <h3 class="textdarks">EMUI10.1</h3>
+                            <p class="textgreys">A Seamless AI Life</p>
+        
+                            <button type="button" class="text-uppercase mt-3 mb-4">learn more</button>
+                        </div>
+                        <!-- End title  -->
+                    </div>
+                    <!-- End emui 10.1 -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End Huawei Smart Office And EMUI 10.1  -->
+
+<!-- Start Our Services Section  -->
+
+<section id="ourServicesSections" class="my-5 ourServicesSections">
+    <div class="container-fluid">
+        <div class="col-md-11 mx-auto">
+            <div class="row">
+                <div class="serviceSections bgColors">
+                    <div class="col-md-10 col-sm-10 mx-auto">
+                        <div class="row">
+        
+                            <!-- Start title  -->
+                            <div class="col-12 mt-5">
+                                <h3 class="textdarks">Service beyond your product</h3>
+                            </div>
+                            <!-- End title  -->
+        
+                            <div class="col-sm-4 d-flex">
+        
+                                <div class="mt-4">
+                                    <i class="fa-solid fa-location-pin fa-2x textdarks"></i>
+                                </div>
+        
+                                <div class="ms-3 mt-3 mb-5 serviceTexts">
+                                    <h5 class="textdarks">Service Center Location</h5>
+                                    <a href="#" class="textgreys">Query Service Center Nearby
+                                        <i class="fa-solid fa-angle-right ms-1"></i>
+                                    </a>
+                                </div>
+                            </div>
+        
+                            <div class="col-sm-4 d-flex">
+        
+                                <div class="mt-4">
+                                    <i class="fa-solid fa-map fa-2x textdarks"></i>
+                                </div>
+        
+                                <div class="ms-3 mt-3 mb-5 serviceTexts">
+                                    <h5 class="textdarks">Select Your Product</h5>
+                                    <a href="#" class="textgreys">Find Manuals FAQs and updates
+                                        <i class="fa-solid fa-angle-right ms-1"></i>
+                                    </a>
+                                </div>
+                                
+                            </div>
+        
+                            <div class="col-sm-4 d-flex">
+        
+                                <div class="mt-4">
+                                    <i class="fa-solid fa-phone fa-2x textdarks"></i>
+                                </div>
+        
+                                <div class="ms-3 mt-3 mb-5 serviceTexts">
+                                    <h5 class="textdarks">Contact Us</h5>
+                                    <a href="#" class="textgreys">Email Feedback
+                                        <i class="fa-solid fa-angle-right ms-1"></i>
+                                    </a>
+                                </div>
+                                
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- End Our Services Section  -->
+
+<!-- Start Footer Section  -->
+
+<footer id="footer" class="footer bgColors">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-7 col-sm-12">
+                <div class="row my-5 ms-4">
+                    <div class="col-sm-3">
+    
+                        <h5 class="textdarks">Products</h5>
+    
+                        <ul class="textgreys list-unstyled mt-5 footerLinks">
+                            <li><a href="#smartphone" class="nav-link">Smartphone</a></li>
+                            <li><a href="#pc" class="nav-link">PC</a></li>
+                            <li><a href="#tablet" class="nav-link">Tablet</a></li>
+                            <li><a href="#wearable" class="nav-link">Wearable</a></li>
+                            <li><a href="#audio" class="nav-link">Audio</a></li>
+                            <li><a href="#router" class="nav-link">Router</a></li>
+                            <li><a href="#accessories" class="nav-link">Accessories</a></li>
+                            <li><a href="#emui" class="nav-link">EMUI</a></li>
+                        </ul>
+    
+                    </div>
+    
+                    <div class="col-sm-3">
+    
+                        <h5 class="textdarks">Mobile Service</h5>
+    
+                        <ul class="textgreys list-unstyled mt-5 footerLinks">
+                            <li><a href="#appgallery" class="nav-link">AppGallery</a></li>
+                            <li><a href="#video" class="nav-link">HUAWEI Video</a></li>
+                            <li><a href="#themes" class="nav-link">HUAWEI Themes</a></li>
+                            <li><a href="#books" class="nav-link">HUAWEI Books</a></li>
+                            <li><a href="#musics" class="nav-link">HUAWEI Musics</a></li>
+                            <li><a href="#id" class="nav-link">HUAWEI ID</a></li>
+                            <li><a href="#mobile" class="nav-link">HUAWEI Mobile Cloud</a></li>
+                            <li><a href="#member" class="nav-link">HUAWEI Member Center</a></li>
+                            <li><a href="#wallet" class="nav-link">HUAWEI Wallet</a></li>
+                            <li><a href="#browser" class="nav-link">HUAWEI Browser</a></li>
+                            <li><a href="#health" class="nav-link">HUAWEI Health</a></li>
+                            <li><a href="#assistant" class="nav-link">HUAWEI Assistant TODAY</a></li>
+                            <li><a href="#petalsearch" class="nav-link">Petal Search</a></li>
+                            <li><a href="#petalmap" class="nav-link">Petal Map</a></li>
+                        </ul>
+    
+                    </div>
+    
+                    <div class="col-sm-3 footerLinks">
+    
+                        <h5 class="textdarks">Support</h5>
+    
+                        <ul class="textgreys list-unstyled mt-5 footerLinks">
+                            <li><a href="#sparepart" class="nav-link">Spare Part Price</a></li>
+                            <li><a href="#warrentyperiod" class="nav-link">Warrenty Period & Support</a></li>
+                            <li><a href="#service" class="nav-link">Service Query</a></li>
+                            <li><a href="#warrentypolicy" class="nav-link">Warrenty Policy</a></li>
+                            <li><a href="#serviceccenter" class="nav-link">Service Center Location</a></li>
+                            <li><a href="#hisuit" class="nav-link">HiSuite</a></li>
+                            <li><a href="#supportapp" class="nav-link">Support App</a></li>
+                            <li><a href="#privacystatement" class="nav-link">Privacy Statement</a></li>
+                            <li><a href="#repairappointment" class="nav-link">Repair Appointment</a></li>
+                        </ul>
+    
+                    </div>
+    
+                    <div class="col-sm-3 footerLinks">
+    
+                        <h5 class="textdarks">About Huawei</h5>
+    
+                        <ul class="textgreys list-unstyled mt-5 footerLinks">
+                            <li><a href="#aboutus" class="nav-link">About Us</a></li>
+                            <li><a href="#newsevents" class="nav-link">News & Events</a></li>
+                            <li><a href="#group" class="nav-link">HUAWEI Group</a></li>
+                            <li><a href="#enterprise" class="nav-link">HUAWEI Enterprise</a></li>
+                            <li><a href="#carrier" class="nav-link">HUAWEI Carrier</a></li>
+                            <li><a href="#joinus" class="nav-link">Join Us</a></li>
+                            <li><a href="#contactus" class="nav-link">Contact Us</a></li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <hr>
+
+        <div class="ms-4">
+            <h5 class="text-uppercase my-4 textdarks">follow us</h5>
+
+            <a href="#facebook" class="fbLinks"><i class="fa-brands fa-facebook fa-2x me-4 my-4"></i></a>
+
+            <a href="#youtube" class="ytLinks"><i class="fa-brands fa-youtube fa-2x"></i></a>
+        </div>
+
+        <hr>
+
+        <div class="d-flex justify-content-between mt-4">
+            <div class="copyRights">
+                <p class="textgreys">Copyright &copy; 1998-<span id="year"></span> Huawei Device Co., Ltd. All rights reserved.</p>
+            </div>
+
+            <div class="text-capitalize textgreys d-flex copyRightLinks">
+                <a href="#sitemap" class="nav-link mx-3">site map</a>
+                <a href="#termofuse" class="nav-link mx-3">term of use</a>
+                <a href="#privacystatement" class="nav-link mx-3">privacy statement</a>
+                <a href="#cookie" class="nav-link mx-3">cookie</a>
+            </div>
+
+            <div class="d-flex globalLinks textgreys">
+                <a href="#countryandlanguage" class="nav-link">Singapore-English</a>
+                <a href="#global" class="nav-link mx-2"><i class="fa-solid fa-globe"></i></a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</footer>
+
+<!-- End Footer Section  -->
 
 <!-- bootstrap-5 css1 js1  -->
 <script src="./asset/libs/bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"
-        type="text/javascript"></script>
+type="text/javascript"></script>
 
 <!-- jquery js1  -->
 <script src="./asset/libs/jquery/jquery-3.6.0.min.js" type="text/javascript"></script>
