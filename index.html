@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Start Favicon Icon  -->
+    <link rel="shortcut icon" href="./asset/img/icons/hawei_icon.png" type="image/x-icon">
+    <!-- End Favicon Icon  -->
+
     <title>HAWEI Singapore</title>
 
     <!-- bootstrap-5 css1 js1 -->
@@ -12,7 +17,6 @@
           type="text/css">
 
     <!-- fontawesome verson 6.1.1 css1  -->
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
           integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -26,18 +30,17 @@
 
 <header>
 
-    <nav class="navbar navbar-expand-md fixed-top bgColors">
+    <nav class="navbar navbar-expand-xxl fixed-top bgColors">
         <div class="container-fluid d-flex justify-content-between">
-
+            
             <a href="index.html" class="navbar-brand">
                 <img src="./asset/img/icons/hawei_icon.png" width="50px" alt="hawei_icon">
                 <span class="text-capitalize fw-bold lead textgreys">hawei</span>
             </a>
 
-            <button type="button" class="navbar-toggler navbarbuttons textdarks borderColors" data-bs-toggle="collapse"
-                    data-bs-target="#navdata">
-                    <div class="bgDarks line_ones"></div>
-                    <div class="bgDarks line_twos"></div>
+            <button type="button" class="navbar-toggler navbarbuttons textdarks borderColors"           data-bs-toggle="collapse" data-bs-target="#navdata">
+                <div class="bgDarks line_ones"></div>
+                <div class="bgDarks line_twos"></div>
             </button>
 
             <div id="navdata" class="navbar-collapse collapse">
@@ -67,14 +70,14 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="#haweimobileservices" class="nav-link text-capitalize textgreys">hawei mobile services</a>
+                        <a href="#ourServicesSections" class="nav-link text-capitalize textgreys">hawei mobile services</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#emui" class="nav-link text-uppercase textgreys">emui</a>
+                        <a href="#officeandemui" class="nav-link text-uppercase me-lg-5 textgreys">emui</a>
                     </li>
 
-                    <li class="nav-item ms-md-5 ms-sm-0">
+                    <li class="nav-item ms-xxl-5 ms-sm-0">
                         <a href="#support" class="nav-link text-capitalize textgreys">support</a>
                     </li>
 
@@ -86,23 +89,16 @@
                         <a href="#business" class="nav-link text-capitalize textgreys">business</a>
                     </li>
 
-                    <li class="form-check form-switch mt-2">
-                        <a href="#search"><i class="fa-solid fa-magnifying-glass mx-md-3 mx-sm-0 me-sm-3 textdarks"></i></a>
-                        <a href="#person"><i class="fa-solid fa-user textdarks"></i></a>
-
-                        <input type="checkbox" name="switch" id="darkbtns" class="form-check-input mt-1">
-                        <span class="fw-bold modTypes">Dark</span>
+                    <li class="nav-item mt-2 ms-xxl-5 item-links">
+                        <a href="#search" class=""><i class="fa-solid fa-magnifying-glass me-lg-2 me-sm-4 textdarks"></i></a>
+                        <a href="#person" class=""><i class="fa-solid fa-user textdarks"></i></a>
                     </li>
 
-                    <!-- <li class="form-check form-switch ms-md-3 mt-1">
-                    </li> -->
+                    <li class="form-check form-switch ms-xxl-3 mt-2">
+                        <span for="darkbtns" class="mt-1 fw-bold modTypes">Light</span>
+                        <input type="checkbox" name="switch" id="darkbtns" class="form-check-input mt-1">
+                    </li>
                 </ul>
-
-                <!-- <div class="form-check form-switch mt-md-4 darkModBtns">
-                    <span for="darkbtns" class="mt-1 fw-bold modTypes">Dark</span>
-                    <input type="checkbox" name="switch" id="darkbtns" class="form-check-input mt-1">
-                </div> -->
-
             </div>
         </div>
     </nav>
@@ -200,7 +196,7 @@
         <div class="col-md-11 col-sm-12 mx-auto">
             <div class="p50Sections bgColors">
                 <div class="row">
-                    <div class="col-sm-6 mt-md-4 p50Infos">
+                    <div class="col-sm-6 mt-sm-4 p50Infos">
                         <h6 class="text-danger fw-bold text-uppercase">new</h6>
                         <h1 class="my-4 textdarks">HUAWEI P50 Pro</h1>
                         <small class="mb-4 textgreys">True-Form Dual-Matrix Camera | 6.6'' True-Chroma Display, 120 H |
@@ -240,7 +236,7 @@
     
                     </div>
     
-                    <div class="col-sm-6 mt-md-4 pocketInfos">
+                    <div class="col-sm-6 mt-sm-4 pocketInfos">
                         <h6 class="text-danger fw-bold text-uppercase">new</h6>
                         <h1 class="my-4 textdarks">HUAWEI P50 Pocket</h1>
                         <small class="mb-4 textgreys">remium Foldable Design</small>
@@ -965,10 +961,11 @@
     
                                     <div class="text-center mt-5 itemSectionLinks">
                                         <a href="#" class="textdarks fw-bold text-capitalize me-3">learn more<i
-                                                class="fa-solid fa-angle-right ms-2"></i></a>
+                                                class="fa-solid fa-angle-right ms-2"></i>
+                                        </a>
                                         <a href="#" class="textdarks fw-bold text-capitalize">buy
                                             <i class="fa-solid fa-angle-right ms-2"></i>
-                                            </a>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1138,7 +1135,7 @@
                                                 class="fa-solid fa-angle-right ms-2"></i></a>
                                         <a href="#" class="textdarks fw-bold text-capitalize">buy
                                             <i class="fa-solid fa-angle-right ms-2"></i>
-                                            </a>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1161,30 +1158,25 @@
                 <div class="row">
     
                     <!-- Start huawei smart office  -->
-        
                     <div class="col-md-6 col-sm-10 mx-auto mt-sm-5 mt-md-0 smartOffices">
                         <img src="./asset/img/office and emui/huawei-smart-office.jpg" width="100%" height="350px" alt="huawei smart office">
         
                         <!-- Start title  -->
-        
                         <div class="mx-md-5 mx-sm-0 mt-5 aboutOfficeEmuis">
                             <h3 class="textdarks">HUAWEI Smart Office</h3>
                             <p class="textgreys">Boundless Creation, Seamless Communication</p>
         
                             <button type="button" class="text-uppercase mt-3 mb-4">learn more</button>
                         </div>
-        
                         <!-- End title  -->
                     </div>
                     <!-- End huawei smart office  -->
         
                     <!-- Start emui 10.1  -->
-        
                     <div class="col-md-6 col-sm-10 mx-auto emuis">
                         <img src="./asset/img/office and emui/emui10.1.webp" width="100%" height="350px" alt="emui 10.1">
         
                         <!-- Start title  -->
-        
                         <div class="mx-md-5 mx-sm-0 mt-5 aboutOfficeEmuis">
                             <h3 class="textdarks">EMUI10.1</h3>
                             <p class="textgreys">A Seamless AI Life</p>
@@ -1258,10 +1250,8 @@
                                     <a href="#" class="textgreys">Email Feedback
                                         <i class="fa-solid fa-angle-right ms-1"></i>
                                     </a>
-                                </div>
-                                
+                                </div>   
                             </div>
-        
                         </div>
                     </div>
                 </div>
@@ -1351,7 +1341,6 @@
                             <li><a href="#joinus" class="nav-link">Join Us</a></li>
                             <li><a href="#contactus" class="nav-link">Contact Us</a></li>
                         </ul>
-    
                     </div>
                 </div>
             </div>    
@@ -1386,11 +1375,7 @@
                 <a href="#global" class="nav-link mx-2"><i class="fa-solid fa-globe"></i></a>
             </div>
         </div>
-
-
     </div>
-
-
 </footer>
 
 <!-- End Footer Section  -->

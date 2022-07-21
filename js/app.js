@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     // Start Dark Mod Btns
-
+    
     $("#darkbtns").click("click",function() {
 
         if($(this).is(":checked")) {
@@ -13,10 +13,6 @@ $(document).ready(function () {
             $(".bgColors").css({
                 backgroundColor: "#302c2c",
             });
-
-            // $(".nav-link,.navbar-brand span,.textgreys,.textdarks").css({
-            //     color: "#fff"
-            // });
 
             $(".bgDarks").css({
                 backgroundColor: "#ffff"
@@ -30,7 +26,7 @@ $(document).ready(function () {
                 color: "#fff"
             });
 
-            $(".modTypes").text("Light").css({
+            $(".modTypes").text("Dark").css({
                 color: "#fff",
                 fontWeight: "bold"
             });
@@ -62,7 +58,7 @@ $(document).ready(function () {
                 color: "grey"
             });
 
-            $(".modTypes").text("Dark").css({
+            $(".modTypes").text("Light").css({
                 color: "#000",
                 fontWeight: "bold"
             });
@@ -72,44 +68,22 @@ $(document).ready(function () {
             })
         }
     });
-
-    $(".darkModBtns").hide();
-
-    // $(window).scroll(function() {
-    //     let postitionTop = $(this).scrollTop();
-
-    //     console.log(postitionTop);
-
-    //     if(postitionTop >= 600) {
-    //         $(".darkModBtns").show("clip");
-    //     } else {
-    //         $(".darkModBtns").hide("clip");
-    //     }
-
-    // });
-
-
-    // End Dark Mod Btns
+    // End DarkMod Button
     
     // Start Header Section 
-
     // Start navbar 
-
     $(".navbarbuttons").click("click", function() {
 
         $(".navbarbuttons").toggleClass("crossxs");
     })
     // End navbar 
-
     // End Header Section
     
     // Start Footer Section 
-
     let today = new Date();
     
     let thisYear = today.getFullYear();
 
     $("#year").text(`${thisYear}`);
-
     // End Footer Section
 });
